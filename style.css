@@ -1,0 +1,46 @@
+.container{
+    background-color: rgb(110, 25, 120);
+    width: 400px;
+    height: 250px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+.englobar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butao{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+
+}
+.minimo{
+    background-color: maroon;
+    height: 35px;
+
+    width: 35px;
+
+}
+.maximo{
+        background-color: maroon;
+    height: 35px;
+
+    width: 35px;
+
+
+}
+.minimo:hover{
+    background-color: black;
+}
+.maximo:hover{
+    background-color: black;
+}
